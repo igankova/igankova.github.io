@@ -1,0 +1,35 @@
+:root {
+  --swiper-theme-color: $sec !important;
+}
+
+#slider {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+  @media only screen and (min-width: $cut) {
+    width: 80%;
+  }
+}
+
+.swiper-pagination-bullet {
+  opacity: 0.5;
+  background: $sec;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: $main;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    max-height: 391px;
+  }
+}

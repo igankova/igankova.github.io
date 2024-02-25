@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const slider1Imgs = ['skate.jpg', 'mountains.jpg', '1.jpg', '2.png'];
-    const slider2Imgs = ['skate.jpg', '1.jpg', 'mountains.jpg',];
+    const slider2Imgs = ['skate.jpg', '2.jpg', 'mountains.jpg',];
 
     const slider1 = newSlider(slider1Imgs, '.first-slider');
     const slider2 = newSlider(slider2Imgs, '.second-slider');

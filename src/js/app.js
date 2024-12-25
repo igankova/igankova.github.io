@@ -19,22 +19,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
             pagination: {
                 el: `${sliderClass}-pagination`,
+                clickable: true,
             },
 
-            navigation: {
-                nextEl: `${sliderClass}-button-next`,
-                prevEl: `${sliderClass}-button-prev`,
-            },
+            // navigation: {
+            //     nextEl: `${sliderClass}-button-next`,
+            //     prevEl: `${sliderClass}-button-prev`,
+            // },
 
         });
 
     }
 
-    const slider1Imgs = ['skate.jpg', 'mountains.jpg', '1.jpg', '2.png'];
-    const slider2Imgs = ['skate.jpg', '2.png', 'mountains.jpg',];
+    const slider1Imgs = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
 
     const slider1 = newSlider(slider1Imgs, '.first-slider');
-    const slider2 = newSlider(slider2Imgs, '.second-slider');
 
     new SweetScroll({});
     particlesJS("particles-js", {
